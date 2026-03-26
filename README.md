@@ -70,8 +70,8 @@ dase-underwater-enhancement/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/gopu07/dase-underwater-enhancement.git
-cd dase-underwater-enhancement
+git clone https://github.com/gopu07/DASE-Underwater-Image-Enhancement.git
+cd DASE-Underwater-Image-Enhancement
 pip install -r requirements.txt
 ```
 
@@ -88,6 +88,10 @@ The project provides a unified Command-Line Interface (CLI).
 ```bash
 python -m src.cli --image data/input.jpg --method dase --save results/enhanced.png
 ```
+
+### Demonstration Results
+Below is an example comparing the Baseline algorithm to the DASE pipeline:
+![Comparison Results](results/demo_comparison.png)
 
 ### Compare Baseline vs DASE
 
